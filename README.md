@@ -77,7 +77,7 @@ And you're good to go! To test if the status is working, give your first mon fro
 
 <!-- Nb Support -->
 ## Non-Binary Support
-This plugin does not require any extra steps.
+This plugin does not require any extra steps to install, however do pay attention to the <a href="#proper-setup">proper setup!</a>
 
 This plugin modifies how gender is handled in PSDK, which originally was using a switch. It is set through variable 495!
 By default I believe each value represents:
