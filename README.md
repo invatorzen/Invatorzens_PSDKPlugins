@@ -11,7 +11,7 @@
     When I'm not gaming, working on my own project (Umbra) or working on mods, I like to make plugins. <br />
     So here they are. :D
     <br /> <br />
-    <a href="https://reliccastle.com/members/781/#resources"><strong>You can find these on RelicCastle as well »</strong></a>
+    <a href="https://reliccastle.com/members/781/#resources" target="_blank"><strong>You can find these on RelicCastle as well »</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Quick intro
 Hi! I'm Invatorzen, I've been working on Pokémon fan games since I was a kid but more seriously since I was in high-school. Starting with ROM Hacks and quickly getting overwhelmed as a kid I learned about 
-fan games and heard about a kit called Pokémon Essentials. After working on my own project for a few years, I decided to start a new group project which is known as <a href="https://twitter.com/PokemonUmbra">Pokémon Umbra</a>. 
+fan games and heard about a kit called Pokémon Essentials. After working on my own project for a few years, I decided to start a new group project which is known as <a href="https://twitter.com/PokemonUmbra" target="_blank">Pokémon Umbra</a>. 
 After another few years we decided to move to a newer kit called PSDK, which I have grown to learn and love and now make plugins for!
 <br/><br/>
 I'm very much an amateur dev, but I do enjoy making my own game and making these plugins in my free-time. I'm open to suggestions, but may never get to it if it's too demanding, out of my scope, or if I would never use it in my project.
