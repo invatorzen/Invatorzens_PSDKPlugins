@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins">
+  <a href="https://github.com/invatorzen/PSDKPlugins">
     <img src="https://i.imgur.com/Q3LOc4v.png" alt="Logo" width="240" height="240">
   </a>
 
