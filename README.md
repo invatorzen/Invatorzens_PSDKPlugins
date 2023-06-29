@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Quick intro
 Hi! I'm Invatorzen, I've been working on Pokémon fan games since I was a kid but more seriously since I was in high-school. Starting with ROM Hacks and quickly getting overwhelmed as a kid I learned about 
-fan games and heard about a kit called Pokémon Essentials. After working on my own project for a few years, I decided to start a new group project which is known as [Pokémon Umbra](https://twitter.com/PokemonUmbra). 
+fan games and heard about a kit called Pokémon Essentials. After working on my own project for a few years, I decided to start a new group project which is known as [Pokémon Umbra](https://external.ink?to=twitter.com/PokemonUmbra). 
 After another few years we decided to move to a newer kit called PSDK, which I have grown to learn and love and now make plugins for!
 <br/><br/>
 I'm very much an amateur dev, but I do enjoy making my own game and making these plugins in my free-time. I'm open to suggestions, but may never get to it if it's too demanding, out of my scope, or if I would never use it in my project.
