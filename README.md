@@ -53,12 +53,15 @@ If any of the plugins have more instructions, it'd be indicated in their section
 
 <!-- Frostbite -->
 ## Freeze to Frostbite
-This plugin requires an extra step, make sure to make a backup or delete your "statusen.png" file so it replaces the frozen icon.
+This plugin requires an extra step:
+<ul>
+  <li>Make sure to make a backup or delete your "statusen.png" file so it replaces the frozen icon!</li>
+</ul>
 
-This plugin adds in a new status that's basically burn but reduces your special damage dealt. It procs guts, and can be prevented by magma armor. By default will hail will make you 3x more likely to inflict frostbite, 
+This plugin adds in a new status that's basically burn but reduces your special damage dealt. It procs guts, and can be prevented by magma armor. By default hail will make you 3x more likely to inflict frostbite, 
 and frostbite does 1/8th the users MAX HP as damage per turn. (This is how burn works in PSDK.)
 
-If you want to change the damage dealt or the effect make a monkey patch. Something like:
+If you want to change the damage dealt or the effect, make a monkey patch. Something like:
 ```rb
 module Battle
   module Effects
@@ -110,6 +113,14 @@ This is one of my first plugins, let me know if you find any bugs!
 
 <!-- Auto-Run -->
 ## Auto-Run
+This plugin requires extra steps:
+<ul>
+  <li>Open your "Data\configs\game_options_config.json" and add "toggled_running_choice" to the list of options.</li>
+  <li>Go to Data/Text/Dialogs and open 100042.csv, line 11 represents "on" and 12 "off".</li>
+  <li>Line 68 is the name/title of the option, 69 is the description!</li>
+</ul>
+
+This plugin will check if you have the switch that allows you to run enabled (basically checking if you have running shoes), if it is then it checks your option setting to see if you've enabled auto-run. You could modify this to activate on a switch if you wanted to and know what you're doing. 
 
 <!-- DayNightBGM -->
 ## DayNightBGM
