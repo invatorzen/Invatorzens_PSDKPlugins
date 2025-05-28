@@ -1,0 +1,9 @@
+--- !ruby/object:PluginManager::Config
+name: Toggle_Exp_All
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files:
+- Data\Studio\items\exp_all.json
+- Data\Studio\items\exp_share.json

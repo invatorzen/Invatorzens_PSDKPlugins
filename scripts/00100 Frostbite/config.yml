@@ -1,0 +1,7 @@
+--- !ruby/object:PluginManager::Config
+name: Frostbite
+authors:
+- Yuri
+version: 0.1.0.0
+deps: []
+added_files: []

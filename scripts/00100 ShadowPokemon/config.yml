@@ -1,0 +1,28 @@
+--- !ruby/object:PluginManager::Config
+name: ShadowPokemon
+authors:
+- Invatorzen
+version: 0.1.1.0
+deps: []
+added_files:
+- Data/Studio/moves/shadow_rush.json
+- Data/Studio/moves/shadow_break.json
+- Data/Studio/moves/shadow_chill.json
+- Data/Studio/moves/shadow_bolt.json
+- Data/Studio/moves/shadow_blitz.json
+- Data/Studio/moves/shadow_blast.json
+- Data/Studio/moves/shadow_end.json
+- Data/Studio/moves/shadow_fire.json
+- Data/Studio/moves/shadow_half.json
+- Data/Studio/moves/shadow_shed.json
+- Data/Studio/moves/shadow_storm.json
+- Data/Studio/moves/shadow_sky.json
+- Data/Studio/moves/shadow_wave.json
+- Data/Studio/moves/shadow_rave.json
+- Data/Studio/moves/shadow_panic.json
+- Data/Studio/moves/shadow_mist.json
+- Data/Studio/moves/shadow_hold.json
+- Data/Studio/moves/shadow_down.json
+- graphics/interface/battle/types_shadow.png
+- graphics/interface/types_en_shadow.png
+- Data/Text/Dialogs/100065.csv

@@ -1,0 +1,8 @@
+--- !ruby/object:PluginManager::Config
+name: Physical_Special_Split
+authors:
+- Invatorzen
+version: 1.0.0.1
+deps: []
+added_files:
+- Data/configs/plugins/physpec_split_config.json

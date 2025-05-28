@@ -1,0 +1,9 @@
+--- !ruby/object:PluginManager::Config
+name: OnScreen_Keyboard
+authors:
+- Invatorzen
+version: 0.1.0.1
+deps: []
+added_files:
+- "Data/Text/Dialogs/400001.csv"
+- "graphics/interface/keyboard.png"

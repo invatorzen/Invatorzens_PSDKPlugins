@@ -1,0 +1,11 @@
+--- !ruby/object:PluginManager::Config
+name: Easy Outfits
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files:
+- Data/Text/Dialogs/106969.csv
+- graphics/interface/bag/pockets_active.png
+- graphics/interface/bag/pockets_inactive.png
+- Data/configs/plugins/outfit_config.json

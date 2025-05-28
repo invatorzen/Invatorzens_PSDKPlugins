@@ -1,0 +1,16 @@
+en,fr,it,de,es,ko,kana
+[VAR PKNICK(0000)] got frostbite!,[VAR PKNICK(0000)] est gelé !,it,de,¡[VAR PKNICK(0000)] está helado!,ko,kana
+The wild [VAR PKNICK(0000)] got frostbite!,Le [VAR PKNICK(0000)] sauvage est gelé !,it,de,¡El [VAR PKNICK(0000)] salvaje está helado!,ko,kana
+The opposing [VAR PKNICK(0000)] got frostbite!,Le [VAR PKNICK(0000)] ennemi est gelé !,it,de,¡El [VAR PKNICK(0000)] enemigo está helado!,ko,kana
+[VAR PKNICK(0000)] was hurt by its frostbite!,Le [VAR PKNICK(0000)] souffre de sa gelure !,it,de,¡[VAR PKNICK(0000)] se resiente del helamiento!,ko,kana
+The wild [VAR PKNICK(0000)] was hurt by its frostbite!,Le [VAR PKNICK(0000)] sauvage souffre de sa gelure !,it,de,¡El [VAR PKNICK(0000)] salvaje se resiente del helamiento!,ko,kana
+The opposing [VAR PKNICK(0000)] was hurt by its frostbite!,Le [VAR PKNICK(0000)] ennemi souffre de sa gelure !,it,de,¡El [VAR PKNICK(0000)] enemigo se resiente del helamiento!,ko,kana
+[VAR PKNICK(0000)]'s frostbite was healed!,[VAR PKNICK(0000)] s’est remis de sa gelure !,it,de,¡[VAR PKNICK(0000)] ya no está helado!,ko,kana
+The wild [VAR PKNICK(0000)]’s frostbite was healed!,Le [VAR PKNICK(0000)] sauvage s’est remis de sa gelure !,it,de,¡El [VAR PKNICK(0000)] salvaje ya no está helado!,ko,kana
+The opposing [VAR PKNICK(0000)]’s frostbite was healed!,Le [VAR PKNICK(0000)] ennemi s’est remis de sa gelure !,it,de,¡El [VAR PKNICK(0000)] enemigo ya no está helado!,ko,kana
+[VAR PKNICK(0000)] already has frostbite.,[VAR PKNICK(0000)] est déjà gelé !,it,de,¡[VAR PKNICK(0000)] ya está helado!,ko,kana
+The wild [VAR PKNICK(0000)] already has frostbite.,Le [VAR PKNICK(0000)] sauvage est déjà gelé !,it,de,¡El [VAR PKNICK(0000)] salvaje ya está helado!,ko,kana
+The opposing [VAR PKNICK(0000)] already has frostbite.,Le [VAR PKNICK(0000)] ennemi est déjà gelé !,it,de,¡El [VAR PKNICK(0000)] enemigo ya está helado!,ko,kana
+[VAR PKNICK(0000)] cannot get frostbite!,[VAR PKNICK(0000)] résiste aux gelures !,it,de,¡[VAR PKNICK(0000)] no se puede quedar helado!,ko,kana
+The wild [VAR PKNICK(0000)] cannot get frostbite!,Le [VAR PKNICK(0000)] sauvage résiste aux gelures !,it,de,¡El [VAR PKNICK(0000)] salvaje no se puede quedar helado!,ko,kana
+The opposing [VAR PKNICK(0000)] cannot get frostbite!,Le [VAR PKNICK(0000)] ennemi résiste aux gelures !,it,de,¡El [VAR PKNICK(0000)] enemigo no se puede quedar helado!,ko,kana

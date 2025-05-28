@@ -1,0 +1,7 @@
+#02 Cycle Ball - Returns to bag if the Pokémon isn't caught and is asleep, frozen, or "fully paralyzed" that turn (didn't move)
+#09 Value Ball - Guaranteed 3 max IVs.
+#11 Nuzlocke Ball - Only can catch first encounter of a route
+#13 Rage Ball - Increased catch rate if mon on your team fainted last turn
+
+
+#14 Executive ball already exists, "Rocket Ball"

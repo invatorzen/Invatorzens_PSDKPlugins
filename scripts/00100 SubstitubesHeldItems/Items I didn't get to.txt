@@ -1,0 +1,4 @@
+* Fertilizer - If burst, holder becomes Grass-type 
+* Sandbag - If burst, holder becomes Ground-type
+* Hall Pass - Prevents pursuit and entrapment on holder
+* Harness - Prevents phasing (suction cups doesn't work, so didn't get to this)

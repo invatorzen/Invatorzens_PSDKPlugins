@@ -1,0 +1,7 @@
+--- !ruby/object:PluginManager::Config
+name: NBSupport
+authors:
+- Invatorzen
+version: 1.0.0.0
+deps: []
+added_files: []

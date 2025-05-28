@@ -1,0 +1,9 @@
+--- !ruby/object:PluginManager::Config
+name: Freeze_To_Frostbite
+authors:
+- Invatorzen
+version: 0.1.0.4
+deps: []
+added_files:
+- Data/Text/Dialogs/400000.csv
+- graphics/interface/statutsen.png

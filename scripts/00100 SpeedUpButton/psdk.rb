@@ -1,0 +1,5 @@
+raise 'Graphics is not defined' unless defined?(Graphics)
+raise 'Input is not defined' unless defined?(Input)
+raise 'Input::Keys is not defined' unless defined?(Input::Keys)
+raise 'Input::REPEAT_COOLDOWN is not defined' unless defined?(Input::REPEAT_COOLDOWN)
+raise 'Input::REPEAT_SPACE is not defined' unless defined?(Input::REPEAT_SPACE)
