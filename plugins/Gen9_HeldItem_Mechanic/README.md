@@ -10,7 +10,7 @@
   <p align="center">
     <i>With a flip of a switch, held items no longer get consumed!</i>
     <br /> <br />
-    <a href="/plugins/Gen9_HeldItem_Mechanic/Gen9_HeldItem_Mechanics.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Gen9_HeldItem_Mechanic/Gen9_HeldItem_Mechanics.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -41,7 +41,7 @@ This plugin will effect these items/moves:
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/Gen9_HeldItem_Mechanic/Gen9_HeldItem_Mechanics.psdkplug">Gen9_HeldItem_Mechanics.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Gen9_HeldItem_Mechanic/Gen9_HeldItem_Mechanics.psdkplug">Gen9_HeldItem_Mechanics.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>
 

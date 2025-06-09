@@ -10,7 +10,7 @@
   <p align="center">
     <i>Converts freeze to frostbite from Legends Arceus!</i>
     <br /> <br />
-    <a href="/plugins/Freeze_to_Frostbite/Freeze_To_Frostbite.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Freeze_to_Frostbite/Freeze_To_Frostbite.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -29,7 +29,7 @@ and frostbite does 1/8th the users MAX HP as damage per turn. (This is how burn 
 ## Installation
 <ol>
   <li>Make a backup or delete your "statusen.png" file so it replaces the frozen icon!</li>
-  <li>Download <a href="/plugins/Freeze_to_Frostbite/Freeze_To_Frostbite.psdkplug">Freeze_To_Frostbite.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Freeze_to_Frostbite/Freeze_To_Frostbite.psdkplug">Freeze_To_Frostbite.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>
 

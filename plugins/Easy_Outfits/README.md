@@ -10,7 +10,7 @@
   <p align="center">
     <i>Easily set up and apply outfits with a few commands</i>
     <br /> <br />
-    <a href="/plugins/Easy_Outfits/Easy Outfits.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Easy_Outfits/Easy%20Outfits.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -23,7 +23,7 @@
 
 ## Installation
 1.) Back up or delete `"pockets_active.png"` and `"pockets_inactive.png"` in `"graphics/interface/bag"`<br>
-2.) Download <a href="/plugins/Easy_Outfits/Easy Outfits.psdkplug">Easy_Outfits.psdkplug</a> and place in your scripts folder and run the game<br>
+2.) Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Easy_Outfits/Easy%20Outfits.psdkplug">Easy_Outfits.psdkplug</a> and place in your scripts folder and run the game<br>
 3.) Close the game<br>
 4.) Ensure that the graphics in step 1 are there now, after closing the game<br>
 5.) Ensure 106969.csv is in `"Data/Text/Dialogs"` folder, add text translation for "Outfits" and "Cancel"

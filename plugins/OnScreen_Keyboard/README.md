@@ -10,7 +10,7 @@
   <p align="center">
     <i>Provides an on screen keyboard for players!<br>(Great for controller players)</i>
     <br /> <br />
-    <a href="/plugins/OnScreen_Keyboard/OnScreen_Keyboard.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/OnScreen_Keyboard/OnScreen_Keyboard.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -27,6 +27,6 @@ By default it's ``:SELECT``, which is ``H`` on keyboards.
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/OnScreen_Keyboard/OnScreen_Keyboard.psdkplug">OnScreen_Keyboard.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/OnScreen_Keyboard/OnScreen_Keyboard.psdkplug">OnScreen_Keyboard.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>

@@ -10,7 +10,7 @@
   <p align="center">
     <i>When entering a name screen it will start out blank!</i>
     <br /> <br />
-    <a href="/plugins/Blank_Nicknames/BlankNicknames.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Blank_Nicknames/BlankNicknames.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -28,6 +28,6 @@ For those that don't like having to delete text at the start of the nickname scr
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/Blank_Nicknames/BlankNicknames.psdkplug">Blank_Nicknames.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Blank_Nicknames/BlankNicknames.psdkplug">Blank_Nicknames.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>

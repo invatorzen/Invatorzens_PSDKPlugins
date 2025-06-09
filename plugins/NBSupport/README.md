@@ -10,7 +10,7 @@
   <p align="center">
     <i>Why use a switch when we can use a variable?</i>
     <br /> <br />
-    <a href="/plugins/NBSupport/NBSupport.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/NBSupport/NBSupport.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -26,7 +26,7 @@ By default PSDK handles gender through a switch. This plugin aims to change it t
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/NBSupport/NBSupport.psdkplug">NBSupport.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/NBSupport/NBSupport.psdkplug">NBSupport.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>
 

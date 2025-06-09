@@ -10,7 +10,7 @@
   <p align="center">
     <i>Automatically saves the game when a switch is enabled!</i>
     <br /> <br />
-    <a href="/plugins/AutoSave/AutoSave.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/AutoSave/AutoSave.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -31,6 +31,6 @@ If ``$game_switches[Inva::Sw::AUTOSAVE]`` is enabled, it will autosave the game 
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/AutoSave/AutoSave.psdkplug">AutoSave.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/AutoSave/AutoSave.psdkplug">AutoSave.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>

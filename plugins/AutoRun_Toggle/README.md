@@ -10,7 +10,7 @@
   <p align="center">
     <i>Allows the user to toggle-run! <br>When toggled, you will run by default and walk by holding "B"!</i>
     <br /> <br />
-    <a href="/plugins/AutoRun_Toggle/AutoRunOption.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/AutoRun_Toggle/AutoRunOption.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -26,7 +26,7 @@
 ## Installation
 This plugin requires extra steps:
 <ol>
-  <li>Download <a href="/plugins/AutoRun_Toggle/AutoRunOption.psdkplug">AutoRunOption.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/AutoRun_Toggle/AutoRunOption.psdkplug">AutoRunOption.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Open your Data\configs\game_options_config.json and add "toggled_running_choice" to the list of options</li>
   <li>Go to Data/Text/Dialogs and open 100042.csv (use VSCode/Notepad/whatever, make sure it's still a CSV when saved)</li>
   <li>Make sure line 11 says whatever you want to represent "on" and 12 to represent "off"</li>

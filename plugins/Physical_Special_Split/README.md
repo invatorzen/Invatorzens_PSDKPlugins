@@ -10,7 +10,7 @@
   <p align="center">
     <i>Flip a switch and a move's type will decide it is special or physical!</i>
     <br /> <br />
-    <a href="/plugins/Physical_Special_Split/Physical_Special_Split.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Physical_Special_Split/Physical_Special_Split.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -58,7 +58,7 @@ By default it uses these settings, but you can always change them in your ``Data
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/Physical_Special_Split/Physical_Special_Split.psdkplug">Physical_Special_Split.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Physical_Special_Split/Physical_Special_Split.psdkplug">Physical_Special_Split.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>
 

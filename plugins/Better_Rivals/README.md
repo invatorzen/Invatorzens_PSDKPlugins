@@ -10,7 +10,7 @@
   <p align="center">
     <i>Makes setting up rival events and battles a little bit easier!</i>
     <br /> <br />
-    <a href="/plugins/Better_Rivals/Better_Rivals.psdkplug"><strong>Download</strong></a>
+    <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Better_Rivals/Better_Rivals.psdkplug"><strong>Download</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
@@ -40,6 +40,6 @@ The goal of this was to make rivals easier to set up by providing:
 
 ## Installation
 <ol>
-  <li>Download <a href="/plugins/Better_Rivals/Better_Rivals.psdkplug">Better_Rivals.psdkplug</a> and put it in your game's scripts folder</li>
+  <li>Download <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Better_Rivals/Better_Rivals.psdkplug">Better_Rivals.psdkplug</a> and put it in your game's scripts folder</li>
   <li>Launch the game</li>
 </ol>
