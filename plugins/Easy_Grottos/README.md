@@ -29,6 +29,12 @@ Setting up Hidden Grottos are not difficult, but can be tedious to manage. So th
 * Automatically assign graphics of events
 * Automatically handle the resetting of events
 
+Note that it does not work entirely like official Hidden Grottos. For example:
+* The odds of getting a Hidden Item, Visible Item, Unique Item, and creature are the same as official games.
+* So that means 39% chance you will have a visible item, 1% it's a unique (and visible) item, 40% it's a hidden item, and 20% chance it's a creature.
+* However, the odds of those items are weighted ***separately*** after that. Meaning you'll have the best chance of understanding your odds if each ***individual*** table adds up to 100%.
+
+
 ## Installation
 1. Drop <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Easy_Grottos/Easy_Grottos.psdkplug">HiddenGrottos.psdkplugin</a> in your scripts folder<br>
 2. Run your game<br>
@@ -64,41 +70,44 @@ set_grotto_sprite(map_id)
 *note: the map_id should be the map you're transferring to, and the event should be the event you want to change the sprite of*
 ## Config file
 ### visible_items & hidden_items
-*note: visible items should make up 49% and hidden items should make up 50%*<br>
-This is just an array that takes in two values - the percentage chance you want for this item, and then the item's DB symbol. We are using the default values here from Bulbapedia.
+This is just an array that takes in two values - the percentage chance you want for this item, and then the item's DB symbol. We are using the default values here from Bulbapedia, however we had to normalize the weights. 
+
+Notice that ``visible_items`` adds up to 100%, and so does ``hidden_items`` - this is so I have an easier time understanding the odds of that item appearing for that category.
 
 ````
-"visible_items": [
-    [12.5, "poke_ball"],
-    [5.0, "great_ball"],
-    [2.0, "ultra_ball"],
-    [6.25, "potion"],
-    [2.5, "super_potion"],
-    [1.0, "hyper_potion"],
-    [6.25, "repel"],
-    [2.5, "super_repel"],
-    [1.0, "max_repel"]
+  "visible_items": [
+    [32.05, "poke_ball"],
+    [12.82, "great_ball"],
+    [5.13, "ultra_ball"],
+    [16.03, "potion"],
+    [6.41, "super_potion"],
+    [2.56, "hyper_potion"],
+    [16.03, "repel"],
+    [6.41, "super_repel"],
+    [2.56, "max_repel"]
   ],
   "hidden_items": [
-    [6.25, "damp_mulch"],
-    [6.25, "growth_mulch"],
-    [6.25, "stable_mulch"],
-    [6.25, "gooey_mulch"],
-    [7.5, "tiny_mushroom"],
-    [2.5, "big_mushroom"],
-    [1.0, "red_shard"],
-    [1.0, "green_shard"],
-    [1.0, "yellow_shard"],
-    [1.0, "blue_shard"],
-    [0.25, "rare_candy"],
-    [0.5, "pp_up"],
-    [0.25, "pp_max"]
+    [15.63, "damp_mulch"],
+    [15.63, "growth_mulch"],
+    [15.63, "stable_mulch"],
+    [15.63, "gooey_mulch"],
+    [18.75, "tiny_mushroom"],
+    [6.25, "big_mushroom"],
+    [2.50, "red_shard"],
+    [2.50, "green_shard"],
+    [2.50, "yellow_shard"],
+    [	2.50, "blue_shard"],
+    [0.63, "rare_candy"],
+    [1.25, "pp_up"],
+    [0.63, "pp_max"]
   ],
 ````
 ### unique_items
-*note: always ensure your values add up to 100% per map.<br>(This also makes up the 1% missing in visible items!)*<br><br>
 This is where things get *slightly* trickier. We introduce a map_id as a key for the array. It's the same thing as before, but now you have to specify the map you want to find these items on. I'll show off two examples, one with a singular item and one with multiple items:
 
+For this example we check for map_id ``1`` and have a ``100``% chance of a master ball if we have a ``:unique_item`` Hidden Grotto.
+
+*note: it's easier to understand if you ensure your values add up to 100% per map.*<br>
 ````
   "unique_items": {
     "1": [
@@ -112,9 +121,11 @@ This is where things get *slightly* trickier. We introduce a map_id as a key for
 ````
 
 ### unique_pokemon
-*note: ensure your values add up to 100% per map.<br>*
-
 Saved the trickiest for last. Since you are essentially creating a Pokemon object, you should be able to access any of the generate_from_hash properties. I have a few examples below.
+
+For the first example, we check for the map_id ``22`` and gives pichu a ``25``% chance, pikachu a ``50``% chance and raichu a ``25``% chance of being selected for a ``unique_pokemon`` Hidden Grotto.
+
+*note: I'm saying it again, if your values are 100% you have an easier time knowing what will appear when it is this grotto type.<br>*
 
 ````
   "unique_pokemon": {

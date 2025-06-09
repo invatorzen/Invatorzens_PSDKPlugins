@@ -1,30 +1,30 @@
 {
   "klass": "Configs::Project::HiddenGrottoConfig",
   "visible_items": [
-    [12.5, "poke_ball"],
-    [5.0, "great_ball"],
-    [2.0, "ultra_ball"],
-    [6.25, "potion"],
-    [2.5, "super_potion"],
-    [1.0, "hyper_potion"],
-    [6.25, "repel"],
-    [2.5, "super_repel"],
-    [1.0, "max_repel"]
+    [32.05, "poke_ball"],
+    [12.82, "great_ball"],
+    [5.13, "ultra_ball"],
+    [16.03, "potion"],
+    [6.41, "super_potion"],
+    [2.56, "hyper_potion"],
+    [16.03, "repel"],
+    [6.41, "super_repel"],
+    [2.56, "max_repel"]
   ],
   "hidden_items": [
-    [6.25, "damp_mulch"],
-    [6.25, "growth_mulch"],
-    [6.25, "stable_mulch"],
-    [6.25, "gooey_mulch"],
-    [7.5, "tiny_mushroom"],
-    [2.5, "big_mushroom"],
-    [1.0, "red_shard"],
-    [1.0, "green_shard"],
-    [1.0, "yellow_shard"],
-    [1.0, "blue_shard"],
-    [0.25, "rare_candy"],
-    [0.5, "pp_up"],
-    [0.25, "pp_max"]
+    [15.63, "damp_mulch"],
+    [15.63, "growth_mulch"],
+    [15.63, "stable_mulch"],
+    [15.63, "gooey_mulch"],
+    [18.75, "tiny_mushroom"],
+    [6.25, "big_mushroom"],
+    [2.50, "red_shard"],
+    [2.50, "green_shard"],
+    [2.50, "yellow_shard"],
+    [2.50, "blue_shard"],
+    [0.63, "rare_candy"],
+    [1.25, "pp_up"],
+    [0.63, "pp_max"]
   ],
   "unique_items": {
     "1": [
