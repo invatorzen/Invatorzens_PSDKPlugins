@@ -1,0 +1,10 @@
+--- !ruby/object:PluginManager::Config
+name: AutoSave
+authors:
+- Invatorzen
+version: 0.1.5.1
+deps: []
+added_files:
+- 'graphics/interface/autosave/PSDKLogo_border_s.png'
+- 'graphics/interface/autosave/PSDKLogo_core_s.png'
+- 'graphics/interface/autosave/PSDKLogo_core_perfect.png'

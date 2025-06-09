@@ -1,7 +1,0 @@
---- !ruby/object:PluginManager::Config
-name: SubstitubesBalls_FirstBatch
-authors:
-- Invatorzen
-version: 0.1.0.0
-deps: []
-added_files: []

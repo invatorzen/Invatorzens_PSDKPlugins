@@ -1,0 +1,10 @@
+--- !ruby/object:PluginManager::Config
+name: Gen9_HeldItem_Mehcanics
+authors:
+- Invatorzen
+version: 0.1.0.1
+deps: []
+added_files:
+- 'graphics/icons/EjectPack.png'
+- 'graphics/icons/RoomService.png'
+- 'graphics/icons/ThroatSpray.png'

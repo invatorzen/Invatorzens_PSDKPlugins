@@ -1,0 +1,9 @@
+{
+  "klass": "Configs::Project::OutfitConfig",
+  "outfit_bag_slot": 9,
+  "outfit_icon_slot": 8,
+  "outfits": {
+    "test_outfit": ["player", "hero_01_lyra", true],
+    "ethan_outfit": ["player", "hero_01_ethan", false]
+  }
+}

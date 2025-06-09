@@ -11,26 +11,17 @@
     When I'm not gaming, working on my own project (Umbra) or working on mods, I like to make plugins. <br />
     So here they are. :D
     <br /> <br />
-    <a href="https://reliccastle.com/members/781/#resources"><strong>You can find these on RelicCastle as well »</strong></a>
+    <a href="https://eeveeexpo.com/members/781/#resources"><strong>You can find most of these on EeveeExpo as well »</strong></a>
     <br />
     <br />
     <a href="https://github.com/invatorzen/InvatorzenPSDKPlugins/issues">Report Bugs</a>
+      
+  [![ruby badge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
+  [![psdk badge](/svgs/made_for_psdk.svg)](https://gitlab.com/pokemonsdk/pokemonsdk)
+  [![invatorzen badge](/svgs/made_by_invatorzen.svg)](https://github.com/invatorzen/Invatorzens_PSDKPlugins/tree/main)
   </p>
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Jump to a plugin:</summary>
-  <ul>
-    <li><a href="#freeze-to-frostbite">Freeze to Frostbite</a></li>
-    <li><a href="#non-binary-support">Non-Binary Support</a></li>
-    <li><a href="#auto-run">Toggle Autorun</a></li>
-    <li><a href="#daynightbgm">DayNightBGM Changer</a></li>
-    <li><a href="#substitubes-balls">Substitube's Balls</a></li>
-    <li><a href="#gen-9-consumables">Gen 9 Consumable Held Item Mechanics</a></li>
-  </ul>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## Quick intro
@@ -41,6 +32,26 @@ After another few years we decided to move to a newer kit called PSDK, which I h
 I'm very much an amateur dev, but I do enjoy making my own game and making these plugins in my free-time. I'm open to suggestions, but may never get to it if it's too demanding, out of my scope, or if I would never use it in my project.
 
 <!-- Installing PSDK Plugins -->
+## Repo Structure
+You will find all my plugins hosted as separate folders in the <a href="/plugins/">plugins</a> folder.<br>
+From there you can navigate to the plugin you want to download, and click the download button in the README.md!<br><br>
+I also have a table of contents below:
+  <ul>
+    <li><a href="/plugins/AutoRun_Toggle/README.md">AutoRun_Toggle</a></li>
+    <li><a href="/plugins/AutoSave/README.md">AutoSave</a></li>
+    <li><a href="/plugins/Better_Rivals/README.md">Better_Rivals</a></li>
+    <li><a href="/plugins/Better_Time_Switches/README.md">Better_Time_Switches</a></li>
+    <li><a href="/plugins/Blank_Nicknames/README.md">Blank_Nicknames</a></li>
+    <li><a href="/plugins/Easy_Outfits/README.md">Easy_Outfits</a></li>
+    <li><a href="/plugins/Freeze_to_Frostbite/README.md">Freeze_to_Frostbite</a></li>
+    <li><a href="/plugins/Gen9_HeldItem_Mechanic/README.md">Gen9_HeldItem_Mechanics</a></li>
+    <li><a href="/plugins/OnScreen_Keyboard/README.md">OnScreen_Keyboard</a></li>
+    <li><a href="/plugins/Physical_Special_Split/README.md">Physical/Special_Split_Switch</a></li>
+  </ul>
+
+  Anything without a README.md is the wild-west, and may still be getting a proper page.
+
+<!-- Installing PSDK Plugins -->
 ## Installing PSDK Plugins
 Installing PSDK plugins is made to be as easy as possible for users and is basically a drag and drop process.
 <ol>
@@ -49,34 +60,7 @@ Installing PSDK plugins is made to be as easy as possible for users and is basic
   <li>Run your project and the plugin manager will handle the rest!</li>
 </ol>
 <br/>
-If any of the plugins have more instructions, it'd be indicated in their section.
-
-<!-- Frostbite -->
-## Freeze to Frostbite
-This plugin requires an extra step:
-<ul>
-  <li>Make sure to make a backup or delete your "statusen.png" file so it replaces the frozen icon!</li>
-</ul>
-
-This plugin adds in a new status that's basically burn but reduces your special damage dealt. It procs guts, and can be prevented by magma armor. By default hail will make you 3x more likely to inflict frostbite, 
-and frostbite does 1/8th the users MAX HP as damage per turn. (This is how burn works in PSDK.)
-
-If you want to change the damage dealt or the effect, make a monkey patch. Something like:
-```rb
-module Battle
-  module Effects
-    class Status
-      class Frostbite < Status
-        private
-        def frostbite_effect
-          return (target.max_hp / 16).clamp(1, Float::INFINITY) # Change this
-        end
-      end
-    end
-  end
-end
-```
-And you're good to go! To test if the status is working, give your first mon frostbite by typing ``$actors[0].status_frostbite`` and going into battle by typing ``S.MI.call_battle_wild(:bulbasaur, 5)`` in the cmd prompts.
+If any of the plugins have more instructions, it'd be indicated in their README.md!
 
 <!-- Nb Support -->
 ## Non-Binary Support
@@ -110,17 +94,6 @@ end
   Just add another graphic to graphics/interface/bag called "bag_nb"!
 </ul>
 This is one of my first plugins, let me know if you find any bugs!
-
-<!-- Auto-Run -->
-## Auto-Run
-This plugin requires extra steps:
-<ul>
-  <li>Open your "Data\configs\game_options_config.json" and add "toggled_running_choice" to the list of options.</li>
-  <li>Go to Data/Text/Dialogs and open 100042.csv, line 11 represents "on" and 12 "off".</li>
-  <li>Line 68 is the name/title of the option, 69 is the description!</li>
-</ul>
-
-This plugin will check if you have the switch that allows you to run enabled (basically checking if you have running shoes), if it is then it checks your option setting to see if you've enabled auto-run. You could modify this to activate on a switch if you wanted to and know what you're doing. 
 
 <!-- DayNightBGM -->
 ## DayNightBGM

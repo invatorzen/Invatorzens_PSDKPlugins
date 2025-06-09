@@ -1,0 +1,25 @@
+{
+  "klass": "Configs::Project::PhysSpecSplitConfig",
+  "physical_types": [
+    "normal",
+    "fighting",
+    "flying",
+    "poison",
+    "ground",
+    "rock",
+    "bug",
+    "ghost",
+    "steel"
+  ],
+  "special_types": [
+    "fire",
+    "water",
+    "grass",
+    "electric",
+    "psychic",
+    "ice",
+    "dragon",
+    "dark",
+    "fairy"
+  ]
+}

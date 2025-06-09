@@ -1,0 +1,7 @@
+--- !ruby/object:PluginManager::Config
+name: Better_Rivals
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files: []
