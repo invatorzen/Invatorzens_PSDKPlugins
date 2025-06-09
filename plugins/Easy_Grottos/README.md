@@ -96,7 +96,7 @@ Notice that ``visible_items`` adds up to 100%, and so does ``hidden_items`` - th
     [2.50, "red_shard"],
     [2.50, "green_shard"],
     [2.50, "yellow_shard"],
-    [	2.50, "blue_shard"],
+    [2.50, "blue_shard"],
     [0.63, "rare_candy"],
     [1.25, "pp_up"],
     [0.63, "pp_max"]
