@@ -1,0 +1,8 @@
+--- !ruby/object:PluginManager::Config
+name: Easy_Grottos
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files:
+- Data/configs/plugins/hidden_grotto.json

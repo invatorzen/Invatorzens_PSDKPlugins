@@ -1,0 +1,73 @@
+{
+  "klass": "Configs::Project::HiddenGrottoConfig",
+  "visible_items": [
+    [12.5, "poke_ball"],
+    [5.0, "great_ball"],
+    [2.0, "ultra_ball"],
+    [6.25, "potion"],
+    [2.5, "super_potion"],
+    [1.0, "hyper_potion"],
+    [6.25, "repel"],
+    [2.5, "super_repel"],
+    [1.0, "max_repel"]
+  ],
+  "hidden_items": [
+    [6.25, "damp_mulch"],
+    [6.25, "growth_mulch"],
+    [6.25, "stable_mulch"],
+    [6.25, "gooey_mulch"],
+    [7.5, "tiny_mushroom"],
+    [2.5, "big_mushroom"],
+    [1.0, "red_shard"],
+    [1.0, "green_shard"],
+    [1.0, "yellow_shard"],
+    [1.0, "blue_shard"],
+    [0.25, "rare_candy"],
+    [0.5, "pp_up"],
+    [0.25, "pp_max"]
+  ],
+  "unique_items": {
+    "1": [
+      [100, "master_ball"]
+    ],
+    "22": [
+      [80, "metal_coat"],
+      [20, "dragon_scale"]
+    ]
+  },
+  "unique_pokemon": {
+    "22": [
+      [25, {
+        "id": "pichu",
+        "level": 12,
+        "no_shiny": true,
+        "nature": "jolly",
+        "stats": [31, 20, 15, 25, 18, 22],
+        "bonus": [0, 20, 0, 10, 0, 5],
+        "ability_index": 1,
+        "moves": ["thunderbolt", "quick_attack", "iron_tail", "electro_ball"]
+      }],
+      [50, {
+        "id": "pikachu",
+        "level": 12,
+        "shiny": true,
+        "stats": [31, 20, 15, 25, 18, 22],
+        "bonus": [0, 20, 0, 10, 0, 5]
+      }],
+      [25, {
+        "id": "raichu",
+        "level": 15,
+        "no_shiny": true,
+        "nature": "timid",
+        "ability_index": 0,
+        "moves": ["thunder", "thunder_wave", "agility", "quick_attack"]
+      }]
+    ],
+    "45": [
+      [100, {
+        "id": "mewtwo",
+        "level": 70
+      }]
+    ]
+  }
+}

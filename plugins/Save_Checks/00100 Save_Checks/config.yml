@@ -1,0 +1,7 @@
+--- !ruby/object:PluginManager::Config
+name: Save_Checks
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files: []

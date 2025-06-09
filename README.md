@@ -42,11 +42,14 @@ I also have a table of contents below:
     <li><a href="/plugins/Better_Rivals/README.md">Better_Rivals</a></li>
     <li><a href="/plugins/Better_Time_Switches/README.md">Better_Time_Switches</a></li>
     <li><a href="/plugins/Blank_Nicknames/README.md">Blank_Nicknames</a></li>
+    <li><a href="/plugins/Easy_Grottos/README.md">Easy_Grottos</a></li>
     <li><a href="/plugins/Easy_Outfits/README.md">Easy_Outfits</a></li>
     <li><a href="/plugins/Freeze_to_Frostbite/README.md">Freeze_to_Frostbite</a></li>
     <li><a href="/plugins/Gen9_HeldItem_Mechanic/README.md">Gen9_HeldItem_Mechanics</a></li>
     <li><a href="/plugins/OnScreen_Keyboard/README.md">OnScreen_Keyboard</a></li>
     <li><a href="/plugins/Physical_Special_Split/README.md">Physical/Special_Split_Switch</a></li>
+    <li><a href="/plugins/Save_Checks/README.md">Save_Checks</a></li>
+    <li><a href="/plugins/Substitubes_Balls/README.md">Substitubes_Balls</a></li>
   </ul>
 
   Anything without a README.md is the wild-west, and may still be getting a proper page.
