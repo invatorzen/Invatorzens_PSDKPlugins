@@ -38,7 +38,7 @@ Note that it does not work entirely like official Hidden Grottos. For example:
 ## Installation
 1. Drop <a href="https://github.com/invatorzen/Invatorzens_PSDKPlugins/raw/refs/heads/main/plugins/Easy_Grottos/Easy_Grottos.psdkplug">HiddenGrottos.psdkplugin</a> in your scripts folder<br>
 2. Run your game<br>
-3. Go to ``data/configs/hidden_grotto.json`` and modify what you want
+3. Go to ``data/configs/hidden_grotto.json`` and [modify what you want](https://github.com/invatorzen/Invatorzens_PSDKPlugins/blob/main/plugins/Easy_Grottos/README.md#config-file)
 
 ## How to use
 ### Event setup (in grotto)
