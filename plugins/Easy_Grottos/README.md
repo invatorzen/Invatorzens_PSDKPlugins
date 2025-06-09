@@ -66,7 +66,7 @@ After you warp a player into the map for a Hidden Grotto call this in a script c
 enter_grotto(map_id, event_id)
 set_grotto_sprite(map_id)
 ````
-![event example](https://i.imgur.com/YbhO2Lr.png)<br>
+![event example](https://i.imgur.com/xFNwR4p.png)<br>
 *note: the map_id should be the map you're transferring to, and the event should be the event you want to change the sprite of*
 ## Config file
 ### visible_items & hidden_items
