@@ -4,29 +4,29 @@ class HiddenGrottos
   end
 
   def get(map_id)
-    return @grottos[map_id]
+    @grottos[map_id]
   end
   alias grotto get
 
   def create(map_id, event_id = 1)
     return @grottos[map_id] if @grottos.key?(map_id)
 
-    return @grottos[map_id] = HiddenGrotto.new(map_id, event_id)
+    @grottos[map_id] = HiddenGrotto.new(map_id, event_id)
   end
   alias add create
 
   def reset(map_id)
-    return @grottos.delete(map_id)
+    @grottos.delete(map_id)
   end
   alias clear reset
 
   def all
-    return @grottos.values
+    @grottos.values
   end
 
   def increase_step_count
     @grottos.each_value do |grotto|
-      next if grotto.time_to_reset == true
+      next if grotto.time_to_reset == true || !grotto.gift.nil?
 
       grotto.steps += 1
       next unless grotto.steps >= 256

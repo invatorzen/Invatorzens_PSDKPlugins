@@ -1,8 +1,7 @@
-class Scene_Map
-  alias og_transfer_player_end transfer_player_end
-  # We add a on_warp_complete scheduler
+module AutoSave_SceneMapMixin
   def transfer_player_end(transition_sprite)
-    og_transfer_player_end(transition_sprite)
+    super
     Scheduler.start(:on_warp_complete)
   end
 end
+Scene_Map.prepend(AutoSave_SceneMapMixin)

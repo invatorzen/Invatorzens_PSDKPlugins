@@ -6,7 +6,9 @@ class Interpreter
 
   # The second command called, that sets the grotto's character sprite - item, pokemon, or hidden item
   def set_grotto_sprite(map_id = $game_map.map_id)
-    $hidden_grottos.get(map_id).generate_gift unless $hidden_grottos.get(map_id).time_to_reset == false
+    return unless $hidden_grottos.get(map_id).time_to_reset
+
+    $hidden_grottos.get(map_id).generate_gift
     set_ss(false, 'A', $hidden_grottos.get(map_id).event_id, map_id)
     @wait_count = 2
     $hidden_grottos.get(map_id).set_event_sprite
