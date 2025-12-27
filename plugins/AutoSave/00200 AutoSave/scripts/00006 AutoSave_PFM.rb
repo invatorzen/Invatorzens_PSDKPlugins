@@ -2,6 +2,7 @@ module PFM
   # AutoSave class, whole purpose is to tell if it should show animation after a battle
   class AutoSave
     attr_accessor :waiting_for_animation
+    attr_accessor :wait_counter
 
     def initialize
       @waiting_for_animation = false

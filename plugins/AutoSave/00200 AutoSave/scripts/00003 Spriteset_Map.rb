@@ -52,7 +52,7 @@ module AutoSave_SpritesetMap
     # Execute autosave when it’s pending and safe to do so
     if @pending_autosave
       init_autosave_ui
-      GamePlay::Save.save
+      GamePlay::Save.autosave
       @pending_autosave = false
     end
 
