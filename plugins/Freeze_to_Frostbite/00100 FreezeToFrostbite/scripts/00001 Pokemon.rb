@@ -3,7 +3,7 @@ module PFM
     # Is the Pokemon frozen?
     # @return [Boolean]
     def frozen?
-      @status == Configs.states.ids[:freeze]
+      return @status == Configs.states.ids[:freeze]
     end
     alias frostbite? frozen?
     alias frostbitten? frozen?
@@ -16,7 +16,7 @@ module PFM
         @status = Configs.states.ids[:freeze]
         return true
       end
-      false
+      return false
     end
     alias status_frostbite status_frozen
 
@@ -25,7 +25,7 @@ module PFM
     def can_be_frozen?(skill_type = 0)
       return false if @status != 0 || (skill_type == 6 && type_ice?)
 
-      true
+      return true
     end
     alias can_be_frostbitten? can_be_frozen?
     alias can_be_frostbite? can_be_frozen?

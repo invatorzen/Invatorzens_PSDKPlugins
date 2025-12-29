@@ -7,8 +7,8 @@ module Battle
         # @return [Float, Integer] multiplier
         def effect_chance_modifier(move)
           return 1 if move.status_effects.select { |e| e.status == :freeze }.none?
-
-          3
+          
+          return 3
         end
       end
     end

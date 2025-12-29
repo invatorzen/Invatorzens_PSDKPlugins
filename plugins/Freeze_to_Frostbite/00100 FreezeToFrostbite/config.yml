@@ -2,7 +2,7 @@
 name: Freeze_To_Frostbite
 authors:
 - Invatorzen
-version: 0.1.0.4
+version: 0.1.0.5
 deps: []
 added_files:
 - Data/Text/Dialogs/400000.csv
