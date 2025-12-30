@@ -1,0 +1,110 @@
+Index,en,fr
+0,DEBUG MENU,MENU DEBUG
+1,Field Options,Options Terrain
+2,Battle Options,Options Combat
+3,Pokémon Options,Options Pokémon
+4,Item Options,Options Objets
+5,Player Options,Options Joueur
+6,Warp to Map,Se téléporter
+7,Use PC,Utiliser le PC
+8,Switches,Interrupteurs
+9,Variables,Variables
+10,Refresh Map,Rafraîchir la Carte
+11,Day Care,Pension
+12,Test Wild Battle,Combat Sauvage
+13,Test Trainer Battle,Combat Dresseur
+14,Roaming Pokémon,Pokémon Errants
+15,Reset Map Trainers,Reset Dresseurs Carte
+16,Heal Party,Soigner l'Équipe
+17,Add Pokémon,ajouter Pokémon
+18,Fill Storage Boxes,Remplir le Stockage
+19,Clear Storage Boxes,Vider le Stockage
+20,Quick Hatch Eggs,Éclosion Rapide
+21,Access Storage,Accéder au Stockage
+22,Add Item,Ajouter Objet
+23,Fill Bag,Remplir le Sac
+24,Empty Bag,Vider le Sac
+25,Set Money,Régler l'Argent
+26,Set Gym Badges,Badges d'Arène
+27,Toggle Running Shoes,Chaussures de Sport
+28,Toggle Pokédex,Pokédex
+29,Set Player Name,Changer le Nom
+30,Randomize Player ID,ID Aléatoire
+31,[A] Select  [B] Back  [↑↓] Navigate,[A] Sélectionner [B] Retour [↑↓] Naviguer
+32,Day Care management not yet implemented.,Gestion de la Pension non implémentée.
+33,L/R: Page  Shift+↑↓: Jump,L/R: Page  Shift+↑↓: Saut
+34,Enter=OK, Esc=Cancel,Entrée=OK Esc=Annuler
+35,Type number or use arrows,Tapez un nombre ou flèches
+36,Enter Amount,Entrer un montant
+37,Money set to %d.,Argent réglé sur %d.
+38,Badges - %s,Badges - %s
+39,Exit,Quitter
+40,Badge %d: %s,Badge %d: %s
+41,OBTAINED,OBTENU
+42,NOT OBTAINED,NON OBTENU
+43,Running Shoes: %s,Chaussures: %s
+44,Pokédex: %s,Pokédex: %s
+45,Enter Name,Entrer un Nom
+46,Player name set to %s.,Nom du joueur réglé sur %s.
+47,Player ID randomized to %05d.,ID du joueur aléatoire: %05d.
+48,Enter Pokémon Symbol,Symbole Pokémon
+49,Species '%s' not found.,Espèce '%s' non trouvée.
+50,Enter Level,Entrer Niveau
+51,%s added to party!,%s ajouté à l'équipe !
+52,%s sent to PC storage!,%s envoyé au PC !
+53,Added %d Pokémon to storage!,%d Pokémon ajoutés au stockage !
+54,Clear all storage boxes?,Vider tout le stockage ?
+55,Yes,Oui
+56,No,Non
+57,Storage cleared!,Stockage vidé !
+58,%d egg(s) ready to hatch!,%d œuf(s) prêt(s) à éclore !
+59,No eggs in party.,Pas d'œufs dans l'équipe.
+60,Enter Item Symbol,Symbole Objet
+61,Item '%s' not found.,Objet '%s' non trouvé.
+62,Added %d x %s!,Ajout de %d x %s !
+63,Bag filled!,Sac rempli !
+64,Bag emptied!,Sac vidé !
+65,Switches (Page %d),Interrupteurs (Page %d)
+66,ON,ON
+67,OFF,OFF
+68,Variables (Page %d),Variables (Page %d)
+69,Set Variable %d,Régler Variable %d
+70,Map refreshed!,Carte rafraîchie !
+71,Battle Type,Type de Combat
+72,Single Battle,Combat Simple
+73,Double Battle,Combat Double
+74,Triple Battle,Combat Triple
+75,%s Pokémon Symbol,Symbole Pokémon %s
+76,%s Pokémon Level,Niveau Pokémon %s
+77,Failed to start trainer battle.,Échec du combat dresseur.
+78,Reset %d trainer event(s).,%d dresseur(s) réinitialisé(s).
+79,Roaming Pokémon management not yet implemented.,Gestion des Pokémon errants non implémentée.
+80,Enter Map ID,Entrer ID Map
+81,Enter X Position,Entrer Position X
+82,Enter Y Position,Entrer Position Y
+83,Party healed!,Équipe soignée !
+84,Money set to %d!,Argent réglé sur %d !
+85,Name changed to %s!,Nom changé en %s !
+86,New ID: %d,Nouvel ID : %d
+87,Species '%s' not found.,Espèce '%s' non trouvée.
+88,%s added to party!,%s ajouté à l'équipe !
+89,%s sent to storage!,%s envoyé au PC !
+90,Added %d Pokémon to storage!,%d Pokémon ajoutés au stockage !
+91,%d egg(s) ready to hatch!,%d œuf(s) prêt(s) à éclore !
+92,No eggs in party.,Pas d'œufs dans l'équipe.
+93,Bag filled!,Sac rempli !
+94,Bag emptied!,Sac vidé !
+95,Added %d x %s!,Ajout de %d x %s !
+96,Running shoes enabled!,Chaussures de sport activées !
+97,Running shoes disabled!,Chaussures de sport désactivées !
+98,Pokédex locked!,Pokédex verrouillé !
+99,Pokédex unlocked!,Pokédex déverrouillé !
+100,Enter New Name,Entrer nouveau Nom
+101,Empty the entire bag?,Vider tout le sac ?
+102,Added %d x of %d items!,Ajouté %d x de %d objets !
+103,Quantity of each item,Quantité de chaque objet
+104,Enter Trainer ID,Entrer ID Dresseur
+105,Region %d,Région %d
+106,Region 0,Région 0
+107,Debug,Debug
+108,Open the Debug Menu.,Ouvrir le Menu Debug.

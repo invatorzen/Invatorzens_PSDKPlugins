@@ -1,0 +1,9 @@
+--- !ruby/object:PluginManager::Config
+name: Debug_Menu
+authors:
+- Invatorzen
+version: 0.1.0.0
+deps: []
+added_files:
+- "Data/Text/Dialogs/100101.csv"
+- "graphics/interface/debug/menu_icon.png"
