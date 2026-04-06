@@ -30,20 +30,22 @@ module UI
       ya = Yuki::Animation
       fade_in_core = ya.opacity_change(0.4, @autosave_icon_core, 0, 255)
       fade_in_border = ya.opacity_change(0.4, @autosave_icon_border, 0, 255)
-      anim = fade_in_core.parallel_add(fade_in_border)
-      anim.play_before(ya.wait(0.5))
-      anim.start
-      @animation = anim
+      @animation = Yuki::Animation::Player.new
+      @animation.play(fade_in_core)
+      @animation.parallel_play(fade_in_border)
+      @animation.play(ya.wait(0.5))
+      @animation.start
       @animation_stage = 1
     end
 
     def start_rotation_animation
       update_core_sprite(:rotating)
       ya = Yuki::Animation
-      anim = ya.rotation(1.0, @autosave_icon_border, 0, 360)
-      anim.play_before(ya.wait(0.5))
-      anim.start
-      @animation = anim
+      rotation_anim = ya.rotation(1.0, @autosave_icon_border, 0, 360)
+      @animation = Yuki::Animation::Player.new
+      @animation.play(rotation_anim)
+      @animation.play(ya.wait(0.5))
+      @animation.start
       @animation_stage = 2
     end
 
@@ -52,9 +54,10 @@ module UI
       ya = Yuki::Animation
       fade_out_core = ya.opacity_change(0.4, @autosave_icon_core, 255, 0)
       fade_out_border = ya.opacity_change(0.4, @autosave_icon_border, 255, 0)
-      anim = fade_out_core.parallel_add(fade_out_border)
-      anim.start
-      @animation = anim
+      @animation = Yuki::Animation::Player.new
+      @animation.play(fade_out_core)
+      @animation.parallel_play(fade_out_border)
+      @animation.start
       @animation_stage = 3
     end
 

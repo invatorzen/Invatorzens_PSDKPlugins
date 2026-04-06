@@ -1,0 +1,10 @@
+--- !ruby/object:PluginManager::Config
+name: RainefallUtil
+authors:
+- rainefall
+- Invatorzen
+version: 0.1.0.1
+deps: []
+added_files:
+- graphics/shaders/rf_outline.frag
+- graphics/shaders/rf_blur.frag

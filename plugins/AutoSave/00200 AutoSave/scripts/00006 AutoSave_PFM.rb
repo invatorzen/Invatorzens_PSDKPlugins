@@ -13,12 +13,10 @@ module PFM
     attr_accessor :autosave
 
     # Sets up $autosave so I can check it after battles
-    safe_code('Setup AutoSave in GameState') do
-      on_player_initialize(:autosave) { @autosave = PFM::AutoSave.new }
-      on_expand_global_variables(:autosave) do
-        @autosave ||= PFM::AutoSave.new
-        $autosave = @autosave
-      end
+    on_player_initialize(:autosave) { @autosave = PFM::AutoSave.new }
+    on_expand_global_variables(:autosave) do
+      @autosave ||= PFM::AutoSave.new
+      $autosave = @autosave
     end
   end
 end
